@@ -1,0 +1,30 @@
+<nav  [class]="isDarkMode ? 'navbar navbar-expand-sm bg-secondary d-flex justify-content-between' : 'navbar navbar-expand-sm bg-body-secondary d-flex justify-content-between'">
+<div>
+  <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" >
+  <i class="fa-solid fa-language h1"></i>
+  <ul [class]="isDarkMode ? 'bg-dark dropdown-menu' : 'bg-light dropdown-menu'" >
+    <li><a [class]="isDarkMode ? ' text-light dropdown-item' : 'text-dark dropdown-item'" (click)="useLanguage('en')">English</a></li>
+    <li><a [class]="isDarkMode ? ' text-light dropdown-item' : 'text-dark dropdown-item'" (click)="useLanguage('ar')">Arabic</a></li>
+  </ul>
+</button>
+
+</div>
+<div><button class="btn btn-secondary btn-lg" (click)="toggleTheme()">
+  <i [class]="isDarkMode ? 'fa-solid fa-sun text-warning h1' : 'fa-solid fa-moon text-dark h1'"></i>
+</button>
+</div>
+</nav>
+<div class="container mt-5" [attr.dir]="currentLang === 'ar' ? 'rtl' : 'ltr'">
+  <div class="btn-group d-flex justify-content-center" >
+    <button type="button" class="btn btn-info btn-lg" data-bs-toggle="collapse" data-bs-target="#Egypt">{{'title.E' | translate }} </button>
+    <button type="button" class="btn btn-info btn-lg" data-bs-toggle="collapse" data-bs-target="#Saudi_Arabia">{{'title.S' | translate }} </button>
+    <button type="button" class="btn btn-info btn-lg" data-bs-toggle="collapse" data-bs-target="#Palestine">{{'title.p' | translate }} </button>
+  </div>
+  <div id="Egypt" class="collapse">{{'info.E' | translate }} </div>
+  <div id="Saudi_Arabia" class="collapse">{{'info.S' | translate }} </div>
+  <div id="Palestine" class="collapse">{{'info.P' | translate }} </div>
+
+</div>
+
+<router-outlet />
+

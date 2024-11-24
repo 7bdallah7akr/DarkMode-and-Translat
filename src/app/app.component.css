@@ -1,0 +1,5 @@
+.dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    color: rgb(218, 25, 25)!important; 
+  }
+  

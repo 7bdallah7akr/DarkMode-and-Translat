@@ -1,0 +1,13 @@
+{
+    "dir" : "ltr",
+    "title" : {
+        "E" : "Egypt" ,
+        "S" : "Saudi Arabia" ,
+        "p" : "Palestine"
+    } , 
+    "info" : {
+        "E" : "Egypt is considered one of the top tourist destinations in the world, blending rich history with vibrant culture. Among the most notable landmarks are the Pyramids of Giza, recognized as one of the Seven Wonders of the World. Luxor offers its grand temples and the Valley of the Kings, where ancient kings were buried. Aswan is home to the High Dam and Philae Island, known for its natural beauty. The Red Sea is a fantastic destination for diving enthusiasts, allowing them to explore diverse coral reefs. In Cairo, visitors can tour the Egyptian Museum, which houses a vast collection of pharaonic artifacts. Alexandria, the coastal city, boasts a diverse history, including the ancient Library of Alexandria. Ultimately, Egypt is an ideal destination for anyone seeking a unique cultural and historical experience." ,
+        "S" : "The Kingdom of Saudi Arabia is a significant center for religious tourism, housing some of the most important Islamic landmarks. The Grand Mosque in Mecca is one of the holiest places, attracting millions of Muslims for the Hajj pilgrimage. In Medina, the Prophet's Mosque is considered the second holiest mosque in Islam and contains the tomb of Prophet Muhammad. The Al-Ula region is known for its historical significance and the importance of its sites, such as Madain Salih, which dates back to the Nabatean civilization. Additionally, Mount Arafat is a crucial site where pilgrims stand during the Hajj rituals. Furthermore, Saudi Arabia is home to several historic mosques, such as Quba Mosque, the first mosque built in Islam. These religious sites make Saudi Arabia a unique spiritual destination for Muslims." ,
+        "P" : "Palestine is one of the most important destinations for religious tourism in the world, housing significant historical and religious sites. Al-Aqsa Mosque in Jerusalem is one of the holiest places in Islam, attracting visitors from around the globe. The Church of the Holy Sepulchre, considered one of the holiest churches for Christians, features a unique historical location.Bethlehem is home to the Church of the Nativity, believed to be the birthplace of Jesus Christ. Additionally, Palestine boasts many historical sites like the Mount of Olives, which offers stunning views of Jerusalem. The Western Wall (Kotel) is an important site for Jews and draws visitors daily. These religious landmarks make Palestine a unique spiritual destination."
+    }
+}
